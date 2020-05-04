@@ -5,6 +5,10 @@
       <input v-model="message" type="text" name="" id="">
       <button type="submit">emit</button>
     </form>
+
+    <div>
+      <p>the message was: {{this.message}}</p>
+    </div>
   </div>
 </template>
 
